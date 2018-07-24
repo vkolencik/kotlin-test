@@ -20,6 +20,7 @@ dependencies {
 
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.9'
+task runExample(type: JavaExec) {
+    main = 'App'
+    classpath = sourceSets.main.runtimeClasspath
 }
