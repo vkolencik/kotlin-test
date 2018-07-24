@@ -12,12 +12,12 @@ buildscript {
 apply plugin: 'kotlin'
 
 repositories {
-  mavenCentral()
+    mavenCentral()
 }
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
-
+    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
 task runExample(type: JavaExec) {
