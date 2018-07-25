@@ -4,3 +4,5 @@ fun main(args : Array<String>) {
 }
 
 fun sum(a: Int, b: Int) = a + b
+
+fun notUsed(a: Int) = 0

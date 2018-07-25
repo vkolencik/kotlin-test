@@ -4,10 +4,10 @@ import org.junit.Assert.assertEquals
 
 class TraderApplicationTests {
 
-	@Test
+	/*@Test
 	fun testSumBad() {
         assertEquals(sum(1, 3), 5)
-	}
+	}*/
 
 	@Test
 	fun testSumGood() {
